@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 4px 4px 29px 9px rgba(83, 194, 139, 0.2);
+  -moz-box-shadow: 4px 4px 29px 9px rgba(83, 194, 139, 0.2);
+  box-shadow: 4px 4px 29px 9px rgba(83, 194, 139, 0.2);
+  border-radius: 15px;
+}
+
+.imgCon img {
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.content h1 {
+  margin-bottom: 10px;
+  padding-right: 30px;
+}
+
+.content p {
+  font-size: 18px;
+  color: #999;
+  padding-right: 20px;
+}

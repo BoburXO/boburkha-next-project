@@ -1,0 +1,53 @@
+.top {
+  display: flex;
+  gap: 30px;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content h1 {
+  font-size: 40px;
+}
+
+.content p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author img {
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.author span {
+  cursor: pointer;
+}
+
+.imgCon {
+  flex: 1;
+  height: 300px;
+  position: relative;
+}
+
+.imgCon img {
+  object-fit: cover;
+}
+
+.content {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #999;
+  text-align: justify;
+}
