@@ -6,7 +6,7 @@ import s from "./page.module.css";
 const Contact = () => {
   return (
     <div className={s.container}>
-      <h1 className={s.title}>Let's Keep in Touch</h1>
+      <h1 className={s.title}>Let&apos;s Keep in Touch</h1>
       <div className={s.content}>
         <div className={s.imgCon}>
           <Image src="/contact.png" alt="" fill={true} />
